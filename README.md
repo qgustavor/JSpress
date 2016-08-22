@@ -1,2 +1,2 @@
 # JSpress
-JavaScript compression
+Small text compressor for repetitive strings! 
