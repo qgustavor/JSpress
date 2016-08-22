@@ -1,0 +1,2 @@
+# JSpress
+JavaScript compression
