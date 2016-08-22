@@ -2,17 +2,21 @@
 Small text compressor for repetitive strings! 
 
 ## Command line interface:
+```bash
+node index.js [--decompress] [input] [output]
+```
 
-    node index.js [--decompress] [input] [output]
-    If output is not specified it will printed to stdout
+If output is not specified it will printed to stdout.
   
 ## Programatic interface:
 
-    var compress = require('.\compress.js');
-    var decompress = require('.\decompress.js');
+```javascript
+var compress = require('.\compress.js');
+var decompress = require('.\decompress.js');
     
-    var compressedString = compress('input string')
-    var decompressedString = decompress('compressed string')
+var compressedString = compress('input string')
+var decompressedString = decompress('compressed string')
+```
     
 ## How it works:
 
