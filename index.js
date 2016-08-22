@@ -22,6 +22,7 @@ if (path.length === 0) {
       result = compress(file);
     }
     if (path[1]) {
+      console.log("Compression ratio:", (result.length / file.length * 100).toFixed(2) + '%');
       fs.writeFile(path[1], result, function (err) {
         if (err) throw err;
         console.log("The file was saved!");
