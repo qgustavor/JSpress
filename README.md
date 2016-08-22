@@ -8,7 +8,7 @@ node index.js [--decompress] [input] [output]
 
 If output is not specified it will printed to stdout.
   
-## Programatic interface:
+## Programmatic interface:
 
 ```javascript
 var compress = require('.\compress.js');
